@@ -25,6 +25,7 @@ pop.vote <- c(0.427780852, 0.56148981, 0.597141922, 0.581254292, 0.530344067,
   0.536914796)
            
 # cor.test(height.ratio,pop.vote)
+png("image.png")
 library(plotrix) # package plotrix is needed for function "ablineclip""
 # if the following line and the line containing "dev.off()" are executed, the plot will be saved as a png file in the current working directory
 # png("Presidental.png", width = 18, height = 18, units = "cm", res = 800, pointsize = 10) 
@@ -39,3 +40,4 @@ par(las = 0)
 mtext("Presidential Height Ratio", side = 1, line = 2.5, cex = 1.5)
 mtext("Relative Support for President", side = 2, line = 3.7, cex = 1.5)
 text(1.15, .65, "r = .39", cex = 1.5)
+dev.off()
