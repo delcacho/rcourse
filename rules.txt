@@ -3,6 +3,7 @@ age >= 0
 height > 0
 age <= 150
 age > yearsmarried
+yearsmarried >= 0
 
 # categorical rules
 status %in% c("married","single","widowed")
