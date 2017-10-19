@@ -1,0 +1,4 @@
+Sales: the total eggs sold on the given day
+Price Eggs: the price of the eggs on the day
+Ad Type: the type of poster – 0 is the egg poster, 1 is the cookie poster.
+Price Cookies: the price of cookies on the day
